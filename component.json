@@ -1,0 +1,9 @@
+{
+	"name": "workerify",
+	"repo": "yyx990803/workerify",
+	"description": "Easy inline web worker",
+	"keywords": ["worker", "web worker"],
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": [ "index.js" ]
+}
