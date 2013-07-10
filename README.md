@@ -1,6 +1,6 @@
 # Workerify
 
-Turn the body of a function into a worker.
+Turn the body of a function into a web worker.
 
 ## Usage
 
@@ -8,6 +8,9 @@ Turn the body of a function into a worker.
 var workerify = require('workerify')
 
 var worker = workerify(function () {
+	// think of here as if you are writing in a
+	// separate file: you do not have access to
+	// anything outside this function's scope.
     self.onmessage = function (e) {
         self.postMessage('pong')
     }
